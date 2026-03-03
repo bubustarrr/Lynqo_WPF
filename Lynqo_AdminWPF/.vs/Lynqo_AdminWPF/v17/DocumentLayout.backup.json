@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kocsisrb\\source\\repos\\Lynqo_AdminWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisrb\\source\\repos\\lynqo_adminwpf\\lynqo_adminwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kocsisrb\\source\\repos\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kocsisrb\\source\\repos\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:19:09.201Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

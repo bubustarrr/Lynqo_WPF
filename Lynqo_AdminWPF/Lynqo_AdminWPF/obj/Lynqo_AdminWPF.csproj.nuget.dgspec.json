@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kocsisrb\\source\\repos\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj": {}
+    "C:\\Users\\kocsisrb\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kocsisrb\\source\\repos\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj": {
+    "C:\\Users\\kocsisrb\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kocsisrb\\source\\repos\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
+        "projectUniqueName": "C:\\Users\\kocsisrb\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
         "projectName": "Lynqo_AdminWPF",
-        "projectPath": "C:\\Users\\kocsisrb\\source\\repos\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
+        "projectPath": "C:\\Users\\kocsisrb\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
         "packagesPath": "C:\\Users\\kocsisrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kocsisrb\\source\\repos\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\obj\\",
+        "outputPath": "C:\\Users\\kocsisrb\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -15,7 +15,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <!-- Fejléc a weboldalhoz hasonlóan -->
+            <!-- Fejléc -->
             <DockPanel Grid.Row="0" Margin="0,0,0,20">
                 <TextBlock Text="Lynqo"
                            FontSize="26"

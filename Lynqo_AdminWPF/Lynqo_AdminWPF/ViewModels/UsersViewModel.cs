@@ -13,7 +13,6 @@ namespace Lynqo_AdminWPF.ViewModels
     public class UsersViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
-
         private readonly ApiClient _api;
 
         public ObservableCollection<AdminUserDto> Users { get; } = new();
@@ -26,17 +25,13 @@ namespace Lynqo_AdminWPF.ViewModels
             {
                 _selectedUser = value;
                 OnPropertyChanged();
-                OnPropertyChanged(nameof(HasSelection));
-                OnPropertyChanged(nameof(CanPromote));
-                OnPropertyChanged(nameof(CanDemote));
-                OnPropertyChanged(nameof(CanBan));
-                OnPropertyChanged(nameof(CanUnban));
+                RefreshCommands();
             }
         }
 
         public bool HasSelection => SelectedUser != null;
-        public bool CanPromote => SelectedUser?.Role == "user";
-        public bool CanDemote => SelectedUser?.Role == "admin";
+        public bool CanPromote => SelectedUser?.Role?.ToLower() == "user";
+        public bool CanDemote => SelectedUser?.Role?.ToLower() == "admin";
         public bool CanBan => SelectedUser != null && !SelectedUser.IsBanned;
         public bool CanUnban => SelectedUser != null && SelectedUser.IsBanned;
 
@@ -48,6 +43,7 @@ namespace Lynqo_AdminWPF.ViewModels
         public ICommand ChangePictureCommand { get; }
         public ICommand BanCommand { get; }
         public ICommand UnbanCommand { get; }
+        public ICommand RefreshCommand { get; }
 
         public UsersViewModel(ApiClient api)
         {
@@ -58,8 +54,23 @@ namespace Lynqo_AdminWPF.ViewModels
             ChangePictureCommand = new RelayCommand(async _ => await ChangePicture(), _ => HasSelection);
             BanCommand = new RelayCommand(async _ => await BanUser(), _ => CanBan);
             UnbanCommand = new RelayCommand(async _ => await UnbanUser(), _ => CanUnban);
+            RefreshCommand = new RelayCommand(async _ => await LoadAsync());
 
             _ = LoadAsync();
+        }
+
+        private void RefreshCommands()
+        {
+            OnPropertyChanged(nameof(HasSelection));
+            OnPropertyChanged(nameof(CanPromote));
+            OnPropertyChanged(nameof(CanDemote));
+            OnPropertyChanged(nameof(CanBan));
+            OnPropertyChanged(nameof(CanUnban));
+
+            (PromoteCommand as RelayCommand)?.RaiseCanExecuteChanged();
+            (DemoteCommand as RelayCommand)?.RaiseCanExecuteChanged();
+            (BanCommand as RelayCommand)?.RaiseCanExecuteChanged();
+            (UnbanCommand as RelayCommand)?.RaiseCanExecuteChanged();
         }
 
         private async Task LoadAsync()
@@ -86,9 +97,7 @@ namespace Lynqo_AdminWPF.ViewModels
             {
                 await _api.SetRoleAsync(SelectedUser.Id, role);
                 SelectedUser.Role = role;
-                OnPropertyChanged(nameof(SelectedUser));
-                OnPropertyChanged(nameof(CanPromote));
-                OnPropertyChanged(nameof(CanDemote));
+                RefreshCommands();
             }
             catch (Exception ex)
             {
@@ -99,10 +108,7 @@ namespace Lynqo_AdminWPF.ViewModels
         private async Task ChangePicture()
         {
             if (SelectedUser == null) return;
-            var dlg = new Microsoft.Win32.OpenFileDialog
-            {
-                Filter = "Képlapok|*.png;*.jpg;*.jpeg"
-            };
+            var dlg = new Microsoft.Win32.OpenFileDialog { Filter = "Képek|*.png;*.jpg;*.jpeg" };
             if (dlg.ShowDialog() == true)
             {
                 try
@@ -126,11 +132,7 @@ namespace Lynqo_AdminWPF.ViewModels
             {
                 await _api.BanUserAsync(SelectedUser.Id, BanReason, BanUntil);
                 SelectedUser.IsBanned = true;
-                SelectedUser.BanReason = BanReason;
-                SelectedUser.BanUntil = BanUntil;
-                OnPropertyChanged(nameof(SelectedUser));
-                OnPropertyChanged(nameof(CanBan));
-                OnPropertyChanged(nameof(CanUnban));
+                RefreshCommands();
             }
             catch (Exception ex)
             {
@@ -145,11 +147,7 @@ namespace Lynqo_AdminWPF.ViewModels
             {
                 await _api.UnbanUserAsync(SelectedUser.Id);
                 SelectedUser.IsBanned = false;
-                SelectedUser.BanReason = null;
-                SelectedUser.BanUntil = null;
-                OnPropertyChanged(nameof(SelectedUser));
-                OnPropertyChanged(nameof(CanBan));
-                OnPropertyChanged(nameof(CanUnban));
+                RefreshCommands();
             }
             catch (Exception ex)
             {
@@ -157,7 +155,7 @@ namespace Lynqo_AdminWPF.ViewModels
             }
         }
 
-        private void OnPropertyChanged([CallerMemberName] string? name = null) =>
+        protected void OnPropertyChanged([CallerMemberName] string? name = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
     }
 }

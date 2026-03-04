@@ -1,52 +1,17 @@
 ﻿<Window x:Class="Lynqo_AdminWPF.Views.LoginWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Lynqo Admin Bejelentkezés"
-        Height="450" Width="800"
-        WindowStartupLocation="CenterScreen"
-        ResizeMode="NoResize">
-    <Grid>
-        <Grid.Background>
-            <StaticResource ResourceKey="LynqoGradient" />
-        </Grid.Background>
+        Title="Login" Height="450" Width="400" Background="#120D26" WindowStartupLocation="CenterScreen">
+    <Grid Margin="30">
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="LYNQO ADMIN" Foreground="White" FontSize="28" HorizontalAlignment="Center" Margin="0,0,0,30"/>
+            <TextBox Text="{Binding Username}" Margin="0,0,0,10" Height="35" VerticalContentAlignment="Center"/>
+            <PasswordBox x:Name="PassBox" Margin="0,0,0,20" Height="35" VerticalContentAlignment="Center"/>
 
-        <Border Style="{StaticResource CardBorder}"
-                Width="400"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center">
-            <StackPanel>
-                <TextBlock Text="Lynqo Admin"
-                           FontSize="24"
-                           FontWeight="Bold"
-                           Margin="0,0,0,20"
-                           HorizontalAlignment="Center"/>
-
-                <!-- Username TextBox placeholder -->
-                <Grid Margin="0,0,0,10">
-                    <TextBox x:Name="UsernameTextBox"
-                             Height="32"
-                             Text="{Binding UsernameOrEmail, UpdateSourceTrigger=PropertyChanged}"/>
-                    <TextBlock Text="Felhasználónév vagy email"
-                               Foreground="Gray"
-                               VerticalAlignment="Center"
-                               Margin="8,0,0,0"
-                               IsHitTestVisible="False"
-                               Visibility="{Binding UsernameOrEmail, Converter={StaticResource EmptyStringToVisibilityConverter}}"/>
-                </Grid>
-
-                <PasswordBox x:Name="PwdBox"
-                             Margin="0,0,0,10"
-                             Height="32" />
-
-                <Button Content="Bejelentkezés"
-                        Style="{StaticResource PrimaryButton}"
-                        Height="36"
-                        Click="Login_Click"/>
-
-                <TextBlock Text="{Binding ErrorMessage}"
-                           Foreground="Red"
-                           Margin="0,10,0,0"/>
-            </StackPanel>
-        </Border>
+            <Button Content="BEJELENTKEZÉS" 
+                    Command="{Binding LoginCommand}" 
+                    Height="45"
+                    Style="{DynamicResource LynqoButton}"/>
+        </StackPanel>
     </Grid>
 </Window>

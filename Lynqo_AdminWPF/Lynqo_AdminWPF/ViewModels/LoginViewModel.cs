@@ -1,4 +1,5 @@
-﻿using Lynqo_AdminWPF.Services;
+﻿using Lynqo_AdminWPF.Helpers; // <-- EZ OLDJA MEG A RELAYCOMMAND HIBÁT
+using Lynqo_AdminWPF.Services;
 using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -30,32 +31,53 @@ namespace Lynqo_AdminWPF.ViewModels
         private async Task Login()
         {
             IsBusy = true;
+            MessageBox.Show($"Ezt küldjük a szervernek:\nFelhasználó: '{Username}'\nJelszó: '{Password}'");
             try
             {
                 bool success = await _api.LoginAsync(Username, Password);
                 if (success)
                 {
-                    var usersVM = new UsersViewModel(_api);
-                    var mainWindow = new Views.MainWindow();
-                    mainWindow.DataContext = usersVM;
-                    mainWindow.Show();
+                    MessageBox.Show("Sikeres belépés! Most történik az átirányítás...");
 
-                    Application.Current.MainWindow.Close();
-                    Application.Current.MainWindow = mainWindow;
+                    // Átváltunk a UI szálra az ablak létrehozásához
+                    Application.Current.Dispatcher.Invoke(() =>
+                    {
+                        try
+                        {
+                            // 1. Létrehozzuk az új ablakot
+                            var mainWindow = new Views.MainWindow();
+                            mainWindow.DataContext = new MainViewModel(_api);
+
+                            // 2. Beállítjuk ezt új Főablaknak (Így a WPF nem állítja le a programot!)
+                            var oldWindow = Application.Current.MainWindow;
+                            Application.Current.MainWindow = mainWindow;
+
+                            // 3. Megjelenítjük az újat
+                            mainWindow.Show();
+
+                            // 4. Bezárjuk a régit
+                            oldWindow?.Close();
+                        }
+                        catch (Exception winEx) // <--- EZ FOGJA MEGMONDANI MI A BAJ!
+                        {
+                            MessageBox.Show($"Kritikus hiba az ablak megnyitásakor:\n{winEx.Message}\n\n{winEx.StackTrace}");
+                        }
+                    });
                 }
                 else
                 {
-                    MessageBox.Show("Sikertelen belépés!");
+                    MessageBox.Show("Sikertelen belépés! Hibás adatok.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Hiba: {ex.Message}");
+                MessageBox.Show($"Hálózati/Szerver hiba:\n{ex.Message}");
             }
             finally { IsBusy = false; }
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string? name = null) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        protected void OnPropertyChanged([CallerMemberName] string? name = null) =>
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
     }
 }

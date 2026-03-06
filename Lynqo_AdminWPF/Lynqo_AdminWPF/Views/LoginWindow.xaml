@@ -6,7 +6,11 @@
         <StackPanel VerticalAlignment="Center">
             <TextBlock Text="LYNQO ADMIN" Foreground="White" FontSize="28" HorizontalAlignment="Center" Margin="0,0,0,30"/>
             <TextBox Text="{Binding Username}" Margin="0,0,0,10" Height="35" VerticalContentAlignment="Center"/>
-            <PasswordBox x:Name="PassBox" Margin="0,0,0,20" Height="35" VerticalContentAlignment="Center"/>
+            <PasswordBox x:Name="PassBox" 
+             PasswordChanged="PassBox_PasswordChanged" 
+             Margin="0,0,0,20" 
+             Height="35" 
+             VerticalContentAlignment="Center"/>
 
             <Button Content="BEJELENTKEZÉS" 
                     Command="{Binding LoginCommand}" 

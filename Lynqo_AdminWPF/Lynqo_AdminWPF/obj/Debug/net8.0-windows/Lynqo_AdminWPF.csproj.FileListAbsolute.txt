@@ -25,6 +25,11 @@ C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\D
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.pdb
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.genruntimeconfig.cache
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\ref\Lynqo_AdminWPF.dll
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\bin\Debug\net8.0-windows\Lynqo_AdminWPF.exe
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\bin\Debug\net8.0-windows\Lynqo_AdminWPF.deps.json
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\bin\Debug\net8.0-windows\Lynqo_AdminWPF.runtimeconfig.json
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\bin\Debug\net8.0-windows\Lynqo_AdminWPF.dll
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\bin\Debug\net8.0-windows\Lynqo_AdminWPF.pdb
 C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Views\LoginWindow.baml
 C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Views\MainWindow.baml
 C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Views\UsersPage.baml
@@ -40,3 +45,8 @@ C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\De
 C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.AssemblyInfo.cs
 C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.csproj.CoreCompileInputs.cache
 C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.sourcelink.json
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.dll
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\refint\Lynqo_AdminWPF.dll
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.pdb
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.genruntimeconfig.cache
+C:\Users\KocsisR\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\ref\Lynqo_AdminWPF.dll

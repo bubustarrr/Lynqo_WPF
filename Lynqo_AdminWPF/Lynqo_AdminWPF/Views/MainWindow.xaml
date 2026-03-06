@@ -4,18 +4,14 @@
         Title="Lynqo Admin"
         Height="700" Width="1200"
         WindowStartupLocation="CenterScreen">
-    <Grid>
-        <Grid.Background>
-            <StaticResource ResourceKey="LynqoGradient" />
-        </Grid.Background>
 
+    <Grid Background="{StaticResource LynqoGradient}">
         <Grid Margin="40">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <!-- Fejléc -->
             <DockPanel Grid.Row="0" Margin="0,0,0,20">
                 <TextBlock Text="Lynqo"
                            FontSize="26"
@@ -25,31 +21,12 @@
                 <TextBlock Text="Admin Panel"
                            FontSize="18"
                            Foreground="White"
-                           Margin="10,4,0,0"/>
+                           Margin="10,4,0,0"
+                           Opacity="0.8"/>
             </DockPanel>
 
             <Border Grid.Row="1" Style="{StaticResource CardBorder}">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="180"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-
-                    <!-- Oldalsáv -->
-                    <StackPanel Grid.Column="0">
-                        <TextBlock Text="Navigáció"
-                                   FontWeight="Bold"
-                                   Margin="5,0,0,10"/>
-                        <Button Content="Felhasználók"
-                                Style="{StaticResource PrimaryButton}"
-                                Command="{Binding ShowUsersCommand}"/>
-                    </StackPanel>
-
-                    <!-- Fő tartalom -->
-                    <Frame Grid.Column="1"
-                           Margin="20,0,0,0"
-                           Content="{Binding CurrentPage}"/>
-                </Grid>
+                <Frame Content="{Binding CurrentPage}" NavigationUIVisibility="Hidden"/>
             </Border>
         </Grid>
     </Grid>

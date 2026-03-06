@@ -1,39 +1,36 @@
-﻿using Lynqo_AdminWPF.Services;
-using Lynqo_AdminWPF.Views;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Windows.Input;
+using System.Windows.Controls;
+using Lynqo_AdminWPF.Services;
+using Lynqo_AdminWPF.Views;
 
 namespace Lynqo_AdminWPF.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler? PropertyChanged;
+        private Page? _currentPage;
+        private readonly ApiClient _api;
 
-        private object? _currentPage;
-        public object? CurrentPage
+        public Page? CurrentPage
         {
             get => _currentPage;
             set { _currentPage = value; OnPropertyChanged(); }
         }
 
-        public ICommand ShowUsersCommand { get; }
-
-        private readonly ApiClient _api;
-
         public MainViewModel(ApiClient api)
         {
             _api = api;
-            ShowUsersCommand = new RelayCommand(_ => ShowUsers());
-            ShowUsers();
+            ShowUsersPage(); // Alapból a felhasználókat mutatjuk
         }
 
-        private void ShowUsers()
+        public void ShowUsersPage()
         {
-            CurrentPage = new UsersPage { DataContext = new UsersViewModel(_api) };
+            var vm = new UsersViewModel(_api);
+            CurrentPage = new UsersPage { DataContext = vm };
         }
 
-        private void OnPropertyChanged([CallerMemberName] string? name = null) =>
+        public event PropertyChangedEventHandler? PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string? name = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
     }
 }

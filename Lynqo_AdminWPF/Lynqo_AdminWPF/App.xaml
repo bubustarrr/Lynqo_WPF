@@ -1,30 +1,51 @@
 ﻿<Application x:Class="Lynqo_AdminWPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="Views/LoginWindow.xaml">
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Application.Resources>
-        <LinearGradientBrush x:Key="PrimaryGradient" StartPoint="0,0" EndPoint="1,0">
-            <GradientStop Color="#9D50BB" Offset="0.0"/>
-            <GradientStop Color="#6E48AA" Offset="1.0"/>
+        <LinearGradientBrush x:Key="LynqoGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#120D26" Offset="0"/>
+            <GradientStop Color="#1E1938" Offset="1"/>
         </LinearGradientBrush>
 
-        <Style x:Key="LynqoButton" TargetType="Button">
-            <Setter Property="Background" Value="{StaticResource PrimaryGradient}"/>
+        <Style x:Key="CardBorder" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="15" Color="Black" Opacity="0.2" ShadowDepth="2"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Background" Value="#FF4E95"/>
             <Setter Property="Foreground" Value="White"/>
-            <Setter Property="Padding" Value="15,10"/>
-            <Setter Property="Margin" Value="0,5"/>
             <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="0,5"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border x:Name="border" Background="{TemplateBinding Background}" CornerRadius="20" Padding="{TemplateBinding Padding}">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="10">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="border" Property="Opacity" Value="0.8"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="LynqoButton" TargetType="Button">
+            <Setter Property="Background" Value="#6E48AA"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="15">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>

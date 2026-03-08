@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lynqo_AdminWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d8e414632d5e851258c756cecae771bf6c1ae8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+072315e5f599569b91b2df0f31073f3e40f85227")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lynqo_AdminWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lynqo_AdminWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

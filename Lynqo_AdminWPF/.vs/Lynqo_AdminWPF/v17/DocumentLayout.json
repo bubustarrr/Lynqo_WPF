@@ -1,81 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\",
+  "WorkspaceRootPath": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\models\\adminuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\models\\adminuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\viewmodels\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\viewmodels\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\viewmodels\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\converters\\emptystringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\converters\\emptystringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KocsisR\\AppData\\Local\\SourceServer\\db0d53f8a604797a75f8be4bbf310d3babcab82a6334df0439a91ea3a6762312\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\models\\adminuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\models\\adminuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\lynqo_adminwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\lynqo_adminwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\lynqo_adminwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\robii\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\views\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\views\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|c:\\users\\kocsisr\\documents\\github\\lynqo_wpf\\lynqo_adminwpf\\lynqo_adminwpf\\converters\\emptystringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C44CE2A-05B6-4C0D-8588-2C4CAF49E373}|Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj|solutionrelative:lynqo_adminwpf\\converters\\emptystringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,130 +85,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmptyStringToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Converters\\EmptyStringToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Converters\\EmptyStringToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Converters\\EmptyStringToVisibilityConverter.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\Converters\\EmptyStringToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:42:41.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Helpers\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Helpers\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Helpers\\RelayCommand.cs",
-              "RelativeToolTip": "Lynqo_AdminWPF\\Helpers\\RelayCommand.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T09:15:57.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\AppData\\Local\\SourceServer\\db0d53f8a604797a75f8be4bbf310d3babcab82a6334df0439a91ea3a6762312\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\db0d53f8a604797a75f8be4bbf310d3babcab82a6334df0439a91ea3a6762312\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\AppData\\Local\\SourceServer\\db0d53f8a604797a75f8be4bbf310d3babcab82a6334df0439a91ea3a6762312\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\db0d53f8a604797a75f8be4bbf310d3babcab82a6334df0439a91ea3a6762312\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAvwCUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T09:28:27.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdminUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Models\\AdminUserDto.cs",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Models\\AdminUserDto.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Models\\AdminUserDto.cs",
-              "RelativeToolTip": "Lynqo_AdminWPF\\Models\\AdminUserDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:20:34.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "Lynqo_AdminWPF\\Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-03T07:19:11.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UsersPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\UsersPage.xaml.cs",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Views\\UsersPage.xaml.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\UsersPage.xaml.cs",
-              "RelativeToolTip": "Lynqo_AdminWPF\\Views\\UsersPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:25:12.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\App.xaml.cs",
-              "RelativeToolTip": "Lynqo_AdminWPF\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:27:14.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Lynqo_AdminWPF\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:19:09.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "EmptyStringToVisibilityConverter.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Converters\\EmptyStringToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Converters\\EmptyStringToVisibilityConverter.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Converters\\EmptyStringToVisibilityConverter.cs",
-              "RelativeToolTip": "Lynqo_AdminWPF\\Converters\\EmptyStringToVisibilityConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:42:41.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Views\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\LoginWindow.xaml.cs",
               "RelativeToolTip": "Lynqo_AdminWPF\\Views\\LoginWindow.xaml.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:24:17.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T07:24:17.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Views\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\LoginWindow.xaml",
               "RelativeToolTip": "Lynqo_AdminWPF\\Views\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-03T07:49:42.391Z",
@@ -216,11 +126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "UsersPage.xaml",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\UsersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\UsersPage.xaml",
               "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Views\\UsersPage.xaml",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\UsersPage.xaml",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\UsersPage.xaml",
               "RelativeToolTip": "Lynqo_AdminWPF\\Views\\UsersPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-03T07:25:02.867Z",
@@ -228,11 +138,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\App.xaml",
               "RelativeDocumentMoniker": "Lynqo_AdminWPF\\App.xaml",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\App.xaml",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\App.xaml",
               "RelativeToolTip": "Lynqo_AdminWPF\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-03T07:26:54.881Z",
@@ -240,50 +150,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "UsersViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\UsersViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\UsersViewModel.cs",
               "RelativeDocumentMoniker": "Lynqo_AdminWPF\\ViewModels\\UsersViewModel.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\UsersViewModel.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\UsersViewModel.cs",
               "RelativeToolTip": "Lynqo_AdminWPF\\ViewModels\\UsersViewModel.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAmwKAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAADwv5UAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-03T07:22:24.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "Lynqo_AdminWPF\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Services\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\Services\\ApiClient.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwFkAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:22:10.301Z",
+              "WhenOpened": "2026-03-03T07:21:17.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Lynqo_AdminWPF\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABrAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AdminUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Models\\AdminUserDto.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Models\\AdminUserDto.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Models\\AdminUserDto.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\Models\\AdminUserDto.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:21:57.282Z",
+              "WhenOpened": "2026-03-03T07:20:34.976Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:19:09.201Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\App.xaml.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:27:14.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\UsersPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Views\\UsersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\UsersPage.xaml.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\Views\\UsersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:25:12.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Lynqo_AdminWPF\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-03T07:19:11.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\KocsisR\\AppData\\Local\\SourceServer\\db0d53f8a604797a75f8be4bbf310d3babcab82a6334df0439a91ea3a6762312\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\KocsisR\\AppData\\Local\\SourceServer\\db0d53f8a604797a75f8be4bbf310d3babcab82a6334df0439a91ea3a6762312\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\KocsisR\\AppData\\Local\\SourceServer\\db0d53f8a604797a75f8be4bbf310d3babcab82a6334df0439a91ea3a6762312\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\KocsisR\\AppData\\Local\\SourceServer\\db0d53f8a604797a75f8be4bbf310d3babcab82a6334df0439a91ea3a6762312\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAvwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:28:27.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Helpers\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Helpers\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Helpers\\RelayCommand.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\Helpers\\RelayCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:15:57.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:22:10.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Lynqo_AdminWPF\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:21:57.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Lynqo_AdminWPF\\ViewModels\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\ViewModels\\RelayCommand.cs",
               "RelativeToolTip": "Lynqo_AdminWPF\\ViewModels\\RelayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,24 +296,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
-              "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Services\\ApiClient.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Services\\ApiClient.cs",
-              "RelativeToolTip": "Lynqo_AdminWPF\\Services\\ApiClient.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAADwv1kAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T07:21:17.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "AuthResponse.cs",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Models\\AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Models\\AuthResponse.cs",
               "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Models\\AuthResponse.cs",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Models\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Models\\AuthResponse.cs",
               "RelativeToolTip": "Lynqo_AdminWPF\\Models\\AuthResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -316,11 +308,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Lynqo_AdminWPF.csproj",
-              "DocumentMoniker": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
+              "DocumentMoniker": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
               "RelativeDocumentMoniker": "Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
-              "ToolTip": "C:\\Users\\KocsisR\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
+              "ToolTip": "C:\\Users\\robii\\Documents\\GitHub\\Lynqo_WPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
               "RelativeToolTip": "Lynqo_AdminWPF\\Lynqo_AdminWPF.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

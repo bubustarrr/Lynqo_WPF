@@ -29,6 +29,21 @@ namespace Lynqo_AdminWPF.ViewModels
             }
         }
 
+        private int _selectedSubscriptionIndex = 0;
+        public int SelectedSubscriptionIndex
+        {
+            get => _selectedSubscriptionIndex;
+            set { _selectedSubscriptionIndex = value; OnPropertyChanged(); }
+        }
+
+        // <-- ÚJ VÁLTOZÓ A CHECKBOXHOZ
+        private bool _isAutoRenew;
+        public bool IsAutoRenew
+        {
+            get => _isAutoRenew;
+            set { _isAutoRenew = value; OnPropertyChanged(); }
+        }
+
         public bool HasSelection => SelectedUser != null;
         public bool CanPromote => SelectedUser?.Role?.ToLower() == "user";
         public bool CanDemote => SelectedUser?.Role?.ToLower() == "admin";
@@ -40,6 +55,8 @@ namespace Lynqo_AdminWPF.ViewModels
 
         public ICommand PromoteCommand { get; }
         public ICommand DemoteCommand { get; }
+        public ICommand GrantSubscriptionCommand { get; }
+        public ICommand RevokeSubscriptionCommand { get; }
         public ICommand ChangePictureCommand { get; }
         public ICommand BanCommand { get; }
         public ICommand UnbanCommand { get; }
@@ -51,6 +68,8 @@ namespace Lynqo_AdminWPF.ViewModels
 
             PromoteCommand = new RelayCommand(async _ => await ChangeRole("admin"), _ => CanPromote);
             DemoteCommand = new RelayCommand(async _ => await ChangeRole("user"), _ => CanDemote);
+            GrantSubscriptionCommand = new RelayCommand(async _ => await GrantSubscription(), _ => HasSelection);
+            RevokeSubscriptionCommand = new RelayCommand(async _ => await RevokeSubscription(), _ => HasSelection);
             ChangePictureCommand = new RelayCommand(async _ => await ChangePicture(), _ => HasSelection);
             BanCommand = new RelayCommand(async _ => await BanUser(), _ => CanBan);
             UnbanCommand = new RelayCommand(async _ => await UnbanUser(), _ => CanUnban);
@@ -69,6 +88,8 @@ namespace Lynqo_AdminWPF.ViewModels
 
             (PromoteCommand as RelayCommand)?.RaiseCanExecuteChanged();
             (DemoteCommand as RelayCommand)?.RaiseCanExecuteChanged();
+            (GrantSubscriptionCommand as RelayCommand)?.RaiseCanExecuteChanged();
+            (RevokeSubscriptionCommand as RelayCommand)?.RaiseCanExecuteChanged();
             (BanCommand as RelayCommand)?.RaiseCanExecuteChanged();
             (UnbanCommand as RelayCommand)?.RaiseCanExecuteChanged();
         }
@@ -102,6 +123,40 @@ namespace Lynqo_AdminWPF.ViewModels
             catch (Exception ex)
             {
                 MessageBox.Show($"Hiba szerep változtatásakor: {ex.Message}");
+            }
+        }
+
+        private async Task GrantSubscription()
+        {
+            if (SelectedUser == null) return;
+            try
+            {
+                int durationMonths = SelectedSubscriptionIndex == 0 ? 1 : 12;
+                // <-- ÁTADJUK AZ IsAutoRenew-t
+                await _api.GrantSubscriptionAsync(SelectedUser.Id, durationMonths, IsAutoRenew);
+                SelectedUser.IsPremium = true;
+
+                string status = IsAutoRenew ? "Be" : "Ki";
+                MessageBox.Show($"{durationMonths} hónap prémium sikeresen aktiválva!\n(Automatikus megújítás: {status})", "Siker", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Hiba a prémium adásakor: {ex.Message}");
+            }
+        }
+
+        private async Task RevokeSubscription()
+        {
+            if (SelectedUser == null) return;
+            try
+            {
+                await _api.RevokeSubscriptionAsync(SelectedUser.Id);
+                SelectedUser.IsPremium = false;
+                MessageBox.Show("Prémium előfizetés sikeresen visszavonva!", "Siker", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Hiba a prémium elvételekor: {ex.Message}");
             }
         }
 

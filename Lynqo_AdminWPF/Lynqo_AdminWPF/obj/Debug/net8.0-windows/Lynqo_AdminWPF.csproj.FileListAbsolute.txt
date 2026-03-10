@@ -10,9 +10,7 @@ C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\D
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Views\UsersPage.g.cs
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF_MarkupCompile.cache
-C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF_MarkupCompile.lref
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\App.baml
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.g.resources
 C:\Users\kocsisrb\Documents\GitHub\Lynqo_WPF\Lynqo_AdminWPF\Lynqo_AdminWPF\obj\Debug\net8.0-windows\Lynqo_AdminWPF.GeneratedMSBuildEditorConfig.editorconfig

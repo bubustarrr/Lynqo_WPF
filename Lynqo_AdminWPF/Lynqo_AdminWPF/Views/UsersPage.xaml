@@ -24,6 +24,7 @@
                     <DataGridTextColumn Header="Felhasználónév" Binding="{Binding Username}" Width="*"/>
                     <DataGridTextColumn Header="Email cím" Binding="{Binding Email}" Width="*"/>
                     <DataGridTextColumn Header="Rang" Binding="{Binding Role}" Width="80"/>
+                    <DataGridCheckBoxColumn Header="Prémium" Binding="{Binding IsPremium}" Width="65"/>
                     <DataGridCheckBoxColumn Header="Kitiltva" Binding="{Binding IsBanned}" Width="70"/>
                 </DataGrid.Columns>
             </DataGrid>
@@ -41,6 +42,29 @@
                         <Button Content="⬇️ Admin jog elvétele" 
                                 Command="{Binding DemoteCommand}" 
                                 Margin="0,5" Padding="5" Background="#FF9800" Foreground="White" FontWeight="Bold"/>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="Előfizetés (Prémium)" Margin="0,0,0,15" Padding="10">
+                    <StackPanel>
+                        <TextBlock Text="Csomag időtartama:" Margin="0,0,0,5" Foreground="#555"/>
+                        <ComboBox SelectedIndex="{Binding SelectedSubscriptionIndex}" Margin="0,0,0,10" Padding="5">
+                            <ComboBoxItem Content="1 Hónap"/>
+                            <ComboBoxItem Content="1 Év"/>
+                        </ComboBox>
+
+                        <CheckBox Content="Automatikus megújítás (Auto-renew)" 
+                                  IsChecked="{Binding IsAutoRenew}" 
+                                  Margin="0,0,0,10" 
+                                  Foreground="#333"/>
+
+                        <Button Content="💎 Prémium Adása" 
+                                Command="{Binding GrantSubscriptionCommand}" 
+                                Margin="0,5" Padding="5" Background="#9C27B0" Foreground="White" FontWeight="Bold"/>
+
+                        <Button Content="❌ Prémium Elvétele" 
+                                Command="{Binding RevokeSubscriptionCommand}" 
+                                Margin="0,5" Padding="5" Background="#E91E63" Foreground="White" FontWeight="Bold"/>
                     </StackPanel>
                 </GroupBox>
 

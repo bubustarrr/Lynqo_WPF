@@ -60,6 +60,20 @@ namespace Lynqo_AdminWPF.Services
             await _http.PatchAsync($"api/admin/users/{userId}/role", new StringContent(json, Encoding.UTF8, "application/json"));
         }
 
+        // <-- ITT KAPTA MEG AZ ÚJ PARAMÉTERT
+        public async Task GrantSubscriptionAsync(int userId, int months, bool autoRenew)
+        {
+            ApplyAuthHeader();
+            var json = JsonSerializer.Serialize(new { durationMonths = months, autoRenew = autoRenew }, _jsonOptions);
+            await _http.PostAsync($"api/admin/users/{userId}/subscription", new StringContent(json, Encoding.UTF8, "application/json"));
+        }
+
+        public async Task RevokeSubscriptionAsync(int userId)
+        {
+            ApplyAuthHeader();
+            await _http.DeleteAsync($"api/admin/users/{userId}/subscription");
+        }
+
         public async Task BanUserAsync(int userId, string? reason, DateTime? until)
         {
             ApplyAuthHeader();

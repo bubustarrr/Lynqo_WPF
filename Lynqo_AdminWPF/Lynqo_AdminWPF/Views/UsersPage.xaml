@@ -29,72 +29,75 @@
                 </DataGrid.Columns>
             </DataGrid>
 
-            <StackPanel Grid.Column="1" Margin="15,0,0,0" IsEnabled="{Binding HasSelection}">
+            <ScrollViewer Grid.Column="1" Margin="15,0,0,0" VerticalScrollBarVisibility="Auto">
 
-                <TextBlock Text="Kiválasztott felhasználó műveletei" FontWeight="Bold" FontSize="14" Margin="0,0,0,10" Foreground="#555"/>
+                <StackPanel IsEnabled="{Binding HasSelection}">
 
-                <GroupBox Header="Szerepkör (Rang)" Margin="0,0,0,15" Padding="10">
-                    <StackPanel>
-                        <Button Content="⭐ Kinevezés Adminná" 
-                                Command="{Binding PromoteCommand}" 
-                                Margin="0,5" Padding="5" Background="#4CAF50" Foreground="White" FontWeight="Bold"/>
+                    <TextBlock Text="Kiválasztott felhasználó műveletei" FontWeight="Bold" FontSize="14" Margin="0,0,0,10" Foreground="#555"/>
 
-                        <Button Content="⬇️ Admin jog elvétele" 
-                                Command="{Binding DemoteCommand}" 
-                                Margin="0,5" Padding="5" Background="#FF9800" Foreground="White" FontWeight="Bold"/>
-                    </StackPanel>
-                </GroupBox>
+                    <GroupBox Header="Szerepkör (Rang)" Margin="0,0,0,15" Padding="10">
+                        <StackPanel>
+                            <Button Content="⭐ Kinevezés Adminná" 
+                                    Command="{Binding PromoteCommand}" 
+                                    Margin="0,5" Padding="5" Background="#4CAF50" Foreground="White" FontWeight="Bold"/>
 
-                <GroupBox Header="Előfizetés (Prémium)" Margin="0,0,0,15" Padding="10">
-                    <StackPanel>
-                        <TextBlock Text="Csomag időtartama:" Margin="0,0,0,5" Foreground="#555"/>
-                        <ComboBox SelectedIndex="{Binding SelectedSubscriptionIndex}" Margin="0,0,0,10" Padding="5">
-                            <ComboBoxItem Content="1 Hónap"/>
-                            <ComboBoxItem Content="1 Év"/>
-                        </ComboBox>
+                            <Button Content="⬇️ Admin jog elvétele" 
+                                    Command="{Binding DemoteCommand}" 
+                                    Margin="0,5" Padding="5" Background="#FF9800" Foreground="White" FontWeight="Bold"/>
+                        </StackPanel>
+                    </GroupBox>
 
-                        <CheckBox Content="Automatikus megújítás (Auto-renew)" 
-                                  IsChecked="{Binding IsAutoRenew}" 
-                                  Margin="0,0,0,10" 
-                                  Foreground="#333"/>
+                    <GroupBox Header="Előfizetés (Prémium)" Margin="0,0,0,15" Padding="10">
+                        <StackPanel>
+                            <TextBlock Text="Csomag időtartama:" Margin="0,0,0,5" Foreground="#555"/>
+                            <ComboBox SelectedIndex="{Binding SelectedSubscriptionIndex}" Margin="0,0,0,10" Padding="5">
+                                <ComboBoxItem Content="1 Hónap"/>
+                                <ComboBoxItem Content="1 Év"/>
+                            </ComboBox>
 
-                        <Button Content="💎 Prémium Adása" 
-                                Command="{Binding GrantSubscriptionCommand}" 
-                                Margin="0,5" Padding="5" Background="#9C27B0" Foreground="White" FontWeight="Bold"/>
+                            <CheckBox Content="Automatikus megújítás (Auto-renew)" 
+                                      IsChecked="{Binding IsAutoRenew}" 
+                                      Margin="0,0,0,10" 
+                                      Foreground="#333"/>
 
-                        <Button Content="❌ Prémium Elvétele" 
-                                Command="{Binding RevokeSubscriptionCommand}" 
-                                Margin="0,5" Padding="5" Background="#E91E63" Foreground="White" FontWeight="Bold"/>
-                    </StackPanel>
-                </GroupBox>
+                            <Button Content="💎 Prémium Adása" 
+                                    Command="{Binding GrantSubscriptionCommand}" 
+                                    Margin="0,5" Padding="5" Background="#9C27B0" Foreground="White" FontWeight="Bold"/>
 
-                <GroupBox Header="Kitiltás (Ban) beállítások" Margin="0,0,0,15" Padding="10">
-                    <StackPanel>
-                        <TextBlock Text="Kitiltás oka (opcionális):" Margin="0,0,0,5" Foreground="#555"/>
-                        <TextBox Text="{Binding BanReason, UpdateSourceTrigger=PropertyChanged}" 
-                                 Margin="0,0,0,10" Padding="5" ToolTip="Írd ide miért tiltod ki..."/>
+                            <Button Content="❌ Prémium Elvétele" 
+                                    Command="{Binding RevokeSubscriptionCommand}" 
+                                    Margin="0,5" Padding="5" Background="#E91E63" Foreground="White" FontWeight="Bold"/>
+                        </StackPanel>
+                    </GroupBox>
 
-                        <TextBlock Text="Kitiltás lejárata (opcionális):" Margin="0,0,0,5" Foreground="#555"/>
-                        <DatePicker SelectedDate="{Binding BanUntil, UpdateSourceTrigger=PropertyChanged}" 
-                                    Margin="0,0,0,15"/>
+                    <GroupBox Header="Kitiltás (Ban) beállítások" Margin="0,0,0,15" Padding="10">
+                        <StackPanel>
+                            <TextBlock Text="Kitiltás oka (opcionális):" Margin="0,0,0,5" Foreground="#555"/>
+                            <TextBox Text="{Binding BanReason, UpdateSourceTrigger=PropertyChanged}" 
+                                     Margin="0,0,0,10" Padding="5" ToolTip="Írd ide miért tiltod ki..."/>
 
-                        <Button Content="🔨 Felhasználó kitiltása" 
-                                Command="{Binding BanCommand}" 
-                                Margin="0,5" Padding="5" Background="#F44336" Foreground="White" FontWeight="Bold"/>
+                            <TextBlock Text="Kitiltás lejárata (opcionális):" Margin="0,0,0,5" Foreground="#555"/>
+                            <DatePicker SelectedDate="{Binding BanUntil, UpdateSourceTrigger=PropertyChanged}" 
+                                        Margin="0,0,0,15"/>
 
-                        <Button Content="✅ Kitiltás feloldása" 
-                                Command="{Binding UnbanCommand}" 
-                                Margin="0,5" Padding="5" Background="#2196F3" Foreground="White" FontWeight="Bold"/>
-                    </StackPanel>
-                </GroupBox>
+                            <Button Content="🔨 Felhasználó kitiltása" 
+                                    Command="{Binding BanCommand}" 
+                                    Margin="0,5" Padding="5" Background="#F44336" Foreground="White" FontWeight="Bold"/>
 
-                <GroupBox Header="Egyéb" Padding="10">
-                    <Button Content="🖼️ Profilkép módosítása" 
-                            Command="{Binding ChangePictureCommand}" 
-                            Padding="5"/>
-                </GroupBox>
+                            <Button Content="✅ Kitiltás feloldása" 
+                                    Command="{Binding UnbanCommand}" 
+                                    Margin="0,5" Padding="5" Background="#2196F3" Foreground="White" FontWeight="Bold"/>
+                        </StackPanel>
+                    </GroupBox>
 
-            </StackPanel>
+                    <GroupBox Header="Egyéb" Padding="10">
+                        <Button Content="🖼️ Profilkép módosítása" 
+                                Command="{Binding ChangePictureCommand}" 
+                                Padding="5"/>
+                    </GroupBox>
+
+                </StackPanel>
+            </ScrollViewer>
         </Grid>
     </Grid>
 </Page>

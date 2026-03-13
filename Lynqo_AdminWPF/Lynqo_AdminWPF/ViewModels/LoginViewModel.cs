@@ -31,7 +31,6 @@ namespace Lynqo_AdminWPF.ViewModels
         private async Task Login()
         {
             IsBusy = true;
-            MessageBox.Show($"Ezt küldjük a szervernek:\nFelhasználó: '{Username}'\nJelszó: '{Password}'");
             try
             {
                 bool success = await _api.LoginAsync(Username, Password);

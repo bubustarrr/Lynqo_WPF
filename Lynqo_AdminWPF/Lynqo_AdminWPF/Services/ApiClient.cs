@@ -27,7 +27,7 @@ namespace Lynqo_AdminWPF.Services
                 _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", AccessToken);
         }
 
-        public async Task<bool> LoginAsync(string userOrEmail, string password)
+        public virtual async Task<bool> LoginAsync(string userOrEmail, string password)
         {
             try
             {
